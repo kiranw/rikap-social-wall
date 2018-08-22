@@ -1,9 +1,18 @@
+@font-face {
+	font-family: "Brandon Grotesque";
+	src: url("fonts/Brandon_reg.otf");
+}
+
 body{
-	background-color:#384354;
+	background: #384354; /* Old browsers */
+	background: -moz-linear-gradient(top, #384354 0%, #1b1e28 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #384354 0%,#1b1e28 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #384354 0%,#1b1e28 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#384354', endColorstr='#1b1e28',GradientType=0 ); /* IE6-9 */
 	margin:5%;
 	padding:5%;
 	width:90vw;
-	font-family: "Apercu";
+	font-family: "Brandon Grotesque";
 }
     
 #header img {
@@ -52,15 +61,18 @@ body{
 }
 
 .names {
- 	font-size: 1.3em;
+ 	font-size: 2em;
 	margin-bottom: 20px;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	letter-spacing: 2px;
+	font-style: italic;
+	font-family: "Cormorant Garamond";
 }
 .metadata {
 	font-weight: 600;
 	text-transform: uppercase;
 	letter-spacing: 2px;
+	font-family: "Cormorant Garamond";
 }
 .hashtag {
 	font-weight: 300;
