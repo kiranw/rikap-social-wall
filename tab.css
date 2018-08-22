@@ -1,5 +1,5 @@
 body{
-	background-color:#f1f1f1;
+	background-color:#384354;
 	margin:5%;
 	padding:5%;
 	width:90vw;
@@ -30,6 +30,45 @@ body{
 
 .clearfloat {
     clear: both;
+}
+
+#curator-feed {
+	width: 40%;
+	height:90vh;
+	display: block;
+	position: absolute;
+}
+
+#logo-div {
+	position: absolute;
+	top: 15vh;
+	right: 15vw;
+	width: 20%;
+	font-size: 1.2em;
+	font-weight: 800;
+	color: white;
+	line-height: 1.6em;
+	text-align: center;
+}
+
+.names {
+ 	font-size: 1.3em;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.metadata {
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.hashtag {
+	font-weight: 300;
+}
+
+#img-div {
+	width: 100%;
+	height: auto;
 }
 
 
