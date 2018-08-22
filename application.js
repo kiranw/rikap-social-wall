@@ -12,7 +12,7 @@ $(document).ready(function() {
     var tagName = 'rikapthemoment';
     //Access token needed for 
     var apiToken = document.location.href.split("code=")[1];
-    while (currentindex < maxindex){
+    while (currentindex < maxIndex){
         //grab JSON data from Instagram API
         $.getJSON("https://api.instagram.com/v1/tags/" + tagName +"/media/recent?access_token=" + apiToken +"&callback=?", function(instagramJSON){
             //Loop through each JSON entry
