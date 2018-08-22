@@ -11,7 +11,7 @@ $(document).ready(function() {
     // the hashtag you wish to load from on Instagram
     var tagName = 'rikapthemoment';
     //Access token needed for 
-    var apiToken = document.location.href.split("code=")[1];
+    var apiToken = document.location.href.split("accessToken=")[1];
     while (currentindex < maxIndex){
         //grab JSON data from Instagram API
         $.getJSON("https://api.instagram.com/v1/tags/" + tagName +"/media/recent?access_token=" + apiToken +"&callback=?", function(instagramJSON){
