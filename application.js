@@ -1,13 +1,14 @@
 var nextImages = ""; //empty global variable that onReady and pagination functions can access
+var maxIndex;
 
 //run function when window opens, loads the first 20 images.
 
 $(document).ready(function() {
     //Start with the most recent photo
     var currentindex = 0;
+    maxIndex = 20;
     //Load 20 photos at a time.
-    var maxIndex = 20;
-    //the hashtag you wish to load from on Instagram
+    // the hashtag you wish to load from on Instagram
     var tagName = 'rikapthemoment';
     //Access token needed for 
     var apiToken = document.location.href.split("code=")[1];
