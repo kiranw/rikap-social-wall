@@ -83,6 +83,9 @@ body{
 	height: auto;
 }
 
+.crt-icon-tumblr {
+	visibility: hidden !important;
+}
 
 /*#button {   */
 /*display: block;*/
